@@ -2,11 +2,13 @@
   "name": "allkeralabustiming-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "generate:manifest": "node --experimental-strip-types scripts/generate-manifest.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

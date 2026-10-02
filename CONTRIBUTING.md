@@ -75,10 +75,14 @@ This project intentionally avoids any database — all bus timings live in Markd
    \`\`\`
 
 4. **Update the manifest**:
-   - Preferred: run the script `scripts/generate-manifest.ts` to auto-generate `public/data/manifest.json`.
-   - Alternative: manually add entries:
+   - **Preferred — run the generate script:**
+     ```bash
+     pnpm generate:manifest
+     ```
+     This scans all `.md` files under `public/data/` and auto-generates `public/data/manifest.json`.
+   - **Alternative — manually add entries to `public/data/manifest.json`:**
 
-     \`\`\`json
+     ```json
      {
        "districts": [
          {
@@ -89,7 +93,7 @@ This project intentionally avoids any database — all bus timings live in Markd
          }
        ]
      }
-     \`\`\`
+     ```
 
 5. **Using the .md Generator (Recommended)**  
    You can also use the built-in Markdown generator tool here:  

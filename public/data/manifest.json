@@ -13,12 +13,12 @@
       "name": "wayanad",
       "stands": [
         {
-          "name": "mananthavady",
-          "path": "/data/wayanad/mananthavady.md"
-        },
-        {
           "name": "ambalavayal",
           "path": "/data/wayanad/ambalavayal.md"
+        },
+        {
+          "name": "mananthavady",
+          "path": "/data/wayanad/mananthavady.md"
         }
       ]
     }
